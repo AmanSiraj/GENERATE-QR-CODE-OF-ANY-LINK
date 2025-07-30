@@ -18,9 +18,7 @@ This is a simple Python project that generates a customized QR code linking to a
 Follow these steps to run the QR Code Generator on your machine:
 
 1️⃣ Clone the Repository
-bash
-Copy
-Edit
+
 git clone https://github.com/your-username/qr-code-generator.git
 cd qr-code-generator
 Replace your-username with your actual GitHub username.
@@ -30,16 +28,10 @@ Make sure you have Python 3 installed.
 
 Then, install the required packages using pip:
 
-bash
-Copy
-Edit
 pip install qrcode[pil]
 3️⃣ Run the Python Script
 In the project folder, run the script:
 
-bash
-Copy
-Edit
 python qr_generator.py
 This will generate a QR code image and save it as linkedin_web.png in the same folder.
 
@@ -47,19 +39,13 @@ This will generate a QR code image and save it as linkedin_web.png in the same f
 Change the URL in the script:
 
 python
-Copy
-Edit
 qr.add_data('https://your-link.com')
 Modify QR code colors:
 
 python
-Copy
-Edit
 img = qr.make_image(fill_color='your_color', back_color='your_color')
 ✅ Output
 The script will create a file named:
 
-Copy
-Edit
 linkedin_web.png
 Scan it with your phone to open the link you encoded!
