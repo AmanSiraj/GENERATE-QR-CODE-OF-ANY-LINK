@@ -12,3 +12,4 @@ This is a simple Python project that generates a customized QR code linking to a
 - Outputs a PNG image
 
 ---
+<img width="490" height="490" alt="linkedin_web" src="https://github.com/user-attachments/assets/b7f2424c-8e31-435e-9be6-cc797e92f0a8" />
